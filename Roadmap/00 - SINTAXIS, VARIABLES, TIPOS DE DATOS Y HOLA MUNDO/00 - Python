@@ -1,0 +1,62 @@
+### SINTAXIS, VARIABLES, TIPOS DE DATOS Y HOLA MUNDO ###
+
+### https://www.python.org/ ###
+
+
+''' Representa las diferentes sintaxis que existen de crear comentarios en el lenguaje (en una línea, varias...) '''
+
+# Reto 00 #
+
+'''
+Reto 
+ 00
+
+'''
+
+''' Crea una variable (y una constante si el lenguaje lo soporta) '''
+
+# Variable:
+
+Nombre = ("Winner nunez")
+print(Nombre)
+
+# Constante:
+
+import math
+
+VALORDEPI = math.pi
+print(VALORDEPI)
+
+
+''' Crea variables representando todos los tipos de datos primitivos del lenguaje (cadenas de texto, enteros, booleanos...'''
+
+# String
+
+string = "Hola restos de programacion"
+print(type(string))
+
+# Numeros enteros
+
+Numero0 = (0)
+print(type(Numero0))
+Numero1 = (5)
+print(type(Numero1))
+Numero2 = (-8)
+print(type(Numero2))
+
+# Flotantantes
+
+numerofloat = (5.7)
+print(type(numerofloat))
+
+# Booleanos
+
+mayor_o_igual = 5 < 6 
+print(mayor_o_igual)
+print(type(mayor_o_igual))
+
+
+''' Imprime por terminal el texto: "¡Hola, [y el nombre de tu lenguaje] '''
+
+print(" HOLA PYTHON ")
+
